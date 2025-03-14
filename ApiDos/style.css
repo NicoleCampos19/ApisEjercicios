@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    text-align: center;
+    margin: 30px;
+    background: linear-gradient(135deg, #b994f8, #a5f894);
+}
+
+#mostrar {
+    background: black;
+    color: white; /* Texto en blanco */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#mostrar:hover {
+    transform: scale(1.05); /* Efecto de agrandar ligeramente */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
