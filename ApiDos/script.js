@@ -6,7 +6,7 @@ fetch("https://randomuser.me/api/")
 .then(data => { 
 console.log(data.results[0]); 
 contenido.innerHTML = `
-<img src="${data.results[0].picture.large}" width="200px"/> 
+<img src="${data.results[0].picture.large}" width="400px"/> 
 <p>Nombre: ${data.results[0].name.last}</p>
 `; 
 })
